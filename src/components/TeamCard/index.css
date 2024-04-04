@@ -1,0 +1,41 @@
+.link {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.text-decoration {
+  text-decoration: none;
+}
+.li-container {
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 150px;
+  color: #ffffff;
+  font-size: 10px;
+}
+.card-image {
+  height: 100px;
+  width: 80px;
+}
+.name {
+  width: 150px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .li-container {
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  .card-image {
+    height: 50px;
+    width: 60px;
+  }
+  .text-size {
+    text-decoration: 100;
+    width: 70px;
+    font-size: 11px;
+  }
+}
