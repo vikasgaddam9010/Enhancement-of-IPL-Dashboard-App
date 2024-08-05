@@ -26,6 +26,15 @@
   align-self: flex-start;
   color: #ffffff;
 }
+.back-btn {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 0px solid;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  font-weight: 500;
+}
 @media (max-width: 576px) {
   .team-match-bg-container {
     width: 100%;

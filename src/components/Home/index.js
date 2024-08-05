@@ -1,9 +1,8 @@
 import {Component} from 'react'
-import TeamCard from '../TeamCard'
-import './index.css'
-
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+import TeamCard from '../TeamCard'
+import './index.css'
 
 class Home extends Component {
   state = {iplTeamsList: [], isLoaderActive: true}
@@ -24,6 +23,7 @@ class Home extends Component {
 
     this.setState({iplTeamsList: updatedData, isLoaderActive: false})
   }
+
   render() {
     const {iplTeamsList, isLoaderActive} = this.state
 
@@ -38,10 +38,8 @@ class Home extends Component {
           <h1>IPL Dashboard</h1>
         </div>
         {isLoaderActive ? (
-          <div testid="loader">
-            <Loader type="TailSpin" color="#FFFFFF" width={50} height={50}>
-              {' '}
-            </Loader>
+          <div>
+            <Loader type="TailSpin" color="#FFFFFF" width={50} height={50} />
           </div>
         ) : (
           <div>

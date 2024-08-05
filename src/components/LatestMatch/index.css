@@ -14,6 +14,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+}
 .hr {
   display: none;
 }

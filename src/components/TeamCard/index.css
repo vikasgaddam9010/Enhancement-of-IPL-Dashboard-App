@@ -22,6 +22,7 @@
 .name {
   width: 150px;
   text-align: center;
+  font-size: 15px;
 }
 @media (max-width: 576px) {
   .li-container {
